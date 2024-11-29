@@ -18,7 +18,7 @@ struct ContentView: View {
             ReadingListView(readingViewModel: readingViewModel, selection: $selection)
         } detail: {
             if let selection {
-                ReadingDetailView(reading: selection)
+                ReadingDetailView(readingViewModel: readingViewModel, reading: selection)
             } else {
                 ContentUnavailableView("Select a Reading Item", systemImage: "book")
             }

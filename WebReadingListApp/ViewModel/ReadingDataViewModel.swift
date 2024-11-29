@@ -20,7 +20,10 @@ class ReadingDataViewModel {
     func addNewReadingItem(title: String, urlString: String) {
         guard let url = URL(string: urlString) else {return}
         // TODO: show error to user if url not valid
-
+        addNewReadingItem(title: title, url: url)
+    }
+    
+    func addNewReadingItem(title: String, url: URL) {
         let new = ReadingItem(title: title, url: url)
 
         readingList.append(new)
