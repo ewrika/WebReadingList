@@ -11,6 +11,11 @@
 		E868B7BE2CF9BA5C0051B759 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7BD2CF9BA5C0051B759 /* ContentView.swift */; };
 		E868B7C02CF9BA5D0051B759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E868B7BF2CF9BA5D0051B759 /* Assets.xcassets */; };
 		E868B7C32CF9BA5D0051B759 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E868B7C22CF9BA5D0051B759 /* Preview Assets.xcassets */; };
+		E868B7CB2CF9BAEE0051B759 /* ReadingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7CA2CF9BAEE0051B759 /* ReadingItem.swift */; };
+		E868B7D12CF9C7260051B759 /* ReadingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7D02CF9C7250051B759 /* ReadingDetailView.swift */; };
+		E868B7D32CF9C7920051B759 /* ReadingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7D22CF9C7920051B759 /* ReadingListView.swift */; };
+		E868B7D52CF9CFE40051B759 /* ReadingDataEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7D42CF9CFE40051B759 /* ReadingDataEditorView.swift */; };
+		E868B7D82CF9EADD0051B759 /* ReadingDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7D72CF9EADD0051B759 /* ReadingDataViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		E868B7BD2CF9BA5C0051B759 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E868B7BF2CF9BA5D0051B759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E868B7C22CF9BA5D0051B759 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E868B7CA2CF9BAEE0051B759 /* ReadingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingItem.swift; sourceTree = "<group>"; };
+		E868B7D02CF9C7250051B759 /* ReadingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingDetailView.swift; sourceTree = "<group>"; };
+		E868B7D22CF9C7920051B759 /* ReadingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingListView.swift; sourceTree = "<group>"; };
+		E868B7D42CF9CFE40051B759 /* ReadingDataEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingDataEditorView.swift; sourceTree = "<group>"; };
+		E868B7D72CF9EADD0051B759 /* ReadingDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingDataViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,9 @@
 		E868B7BA2CF9BA5C0051B759 /* WebReadingListApp */ = {
 			isa = PBXGroup;
 			children = (
+				E868B7D62CF9EAC80051B759 /* ViewModel */,
+				E868B7CF2CF9C7170051B759 /* views */,
+				E868B7C92CF9BAD10051B759 /* model */,
 				E868B7BB2CF9BA5C0051B759 /* WebReadingListAppApp.swift */,
 				E868B7BD2CF9BA5C0051B759 /* ContentView.swift */,
 				E868B7BF2CF9BA5D0051B759 /* Assets.xcassets */,
@@ -67,6 +80,32 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E868B7C92CF9BAD10051B759 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E868B7CA2CF9BAEE0051B759 /* ReadingItem.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E868B7CF2CF9C7170051B759 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				E868B7D02CF9C7250051B759 /* ReadingDetailView.swift */,
+				E868B7D22CF9C7920051B759 /* ReadingListView.swift */,
+				E868B7D42CF9CFE40051B759 /* ReadingDataEditorView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		E868B7D62CF9EAC80051B759 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E868B7D72CF9EADD0051B759 /* ReadingDataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,6 +120,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E868B7CE2CF9BE3D0051B759 /* PBXTargetDependency */,
 			);
 			name = WebReadingListApp;
 			productName = WebReadingListApp;
@@ -111,6 +151,9 @@
 				Base,
 			);
 			mainGroup = E868B7AF2CF9BA5C0051B759;
+			packageReferences = (
+				E868B7CC2CF9BCFF0051B759 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */,
+			);
 			productRefGroup = E868B7B92CF9BA5C0051B759 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,12 +180,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E868B7D82CF9EADD0051B759 /* ReadingDataViewModel.swift in Sources */,
 				E868B7BE2CF9BA5C0051B759 /* ContentView.swift in Sources */,
 				E868B7BC2CF9BA5C0051B759 /* WebReadingListAppApp.swift in Sources */,
+				E868B7D52CF9CFE40051B759 /* ReadingDataEditorView.swift in Sources */,
+				E868B7D32CF9C7920051B759 /* ReadingListView.swift in Sources */,
+				E868B7D12CF9C7260051B759 /* ReadingDetailView.swift in Sources */,
+				E868B7CB2CF9BAEE0051B759 /* ReadingItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E868B7CE2CF9BE3D0051B759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = E868B7CD2CF9BE3D0051B759 /* SwiftLintBuildToolPlugin */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E868B7C42CF9BA5D0051B759 /* Debug */ = {
@@ -344,6 +399,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E868B7CC2CF9BCFF0051B759 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SimplyDanny/SwiftLintPlugins";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.57.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E868B7CD2CF9BE3D0051B759 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E868B7CC2CF9BCFF0051B759 /* XCRemoteSwiftPackageReference "SwiftLintPlugins" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E868B7B02CF9BA5C0051B759 /* Project object */;
 }
