@@ -35,6 +35,7 @@ struct ReadingDataEditorView: View {
                     readingViewModel.addNewReadingItem(title: title, urlString: newURLString)
                     dismiss()
                 }
+                .disabled(title.isEmpty || newURLString.isEmpty)
                 .buttonStyle(.borderedProminent)
             }
 

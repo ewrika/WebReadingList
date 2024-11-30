@@ -22,7 +22,7 @@ class ReadingDataViewModel {
         // TODO: show error to user if url not valid
         addNewReadingItem(title: title, url: url)
     }
-    
+
     func addNewReadingItem(title: String, url: URL) {
         let new = ReadingItem(title: title, url: url)
 
@@ -30,8 +30,16 @@ class ReadingDataViewModel {
         save()
     }
 
+    func supportDirectory() -> URL? {
+        do { return try FileManager.default.url(for: .applicationSupportDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+        } catch {
+            print("error\(error)")
+            return nil
+        }
+    }
+
     func fileURL() -> URL {
-        let directory = URL.documentsDirectory
+        let directory = supportDirectory() ?? URL.documentsDirectory
         return directory.appendingPathComponent("readingList.json")
 
     }

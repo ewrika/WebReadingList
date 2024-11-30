@@ -13,12 +13,17 @@
 		E868B7C32CF9BA5D0051B759 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E868B7C22CF9BA5D0051B759 /* Preview Assets.xcassets */; };
 		E868B7CB2CF9BAEE0051B759 /* ReadingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7CA2CF9BAEE0051B759 /* ReadingItem.swift */; };
 		E868B7D12CF9C7260051B759 /* ReadingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7D02CF9C7250051B759 /* ReadingDetailView.swift */; };
-		E868B7D32CF9C7920051B759 /* ReadingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7D22CF9C7920051B759 /* ReadingListView.swift */; };
+		E868B7D32CF9C7920051B759 /* ReadingSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7D22CF9C7920051B759 /* ReadingSectionView.swift */; };
 		E868B7D52CF9CFE40051B759 /* ReadingDataEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7D42CF9CFE40051B759 /* ReadingDataEditorView.swift */; };
 		E868B7D82CF9EADD0051B759 /* ReadingDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7D72CF9EADD0051B759 /* ReadingDataViewModel.swift */; };
 		E868B7DB2CFA12900051B759 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7DA2CFA12900051B759 /* WebView.swift */; };
 		E868B7DD2CFA2FB80051B759 /* WebViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7DC2CFA2FB80051B759 /* WebViewState.swift */; };
 		E868B7DF2CFA3EE00051B759 /* WebNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7DE2CFA3EE00051B759 /* WebNavigationBar.swift */; };
+		E868B7E12CFB72130051B759 /* SuccessSavedFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7E02CFB72130051B759 /* SuccessSavedFileView.swift */; };
+		E868B7E32CFB78E50051B759 /* PDFViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7E22CFB78E50051B759 /* PDFViewModel.swift */; };
+		E868B7E52CFB7D690051B759 /* PDFSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7E42CFB7D690051B759 /* PDFSectionView.swift */; };
+		E868B7E82CFB86B50051B759 /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7E72CFB86B50051B759 /* PDFViewer.swift */; };
+		E868B7EC2CFB93040051B759 /* PDFViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E868B7EB2CFB93040051B759 /* PDFViewWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +34,17 @@
 		E868B7C22CF9BA5D0051B759 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E868B7CA2CF9BAEE0051B759 /* ReadingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingItem.swift; sourceTree = "<group>"; };
 		E868B7D02CF9C7250051B759 /* ReadingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingDetailView.swift; sourceTree = "<group>"; };
-		E868B7D22CF9C7920051B759 /* ReadingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingListView.swift; sourceTree = "<group>"; };
+		E868B7D22CF9C7920051B759 /* ReadingSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingSectionView.swift; sourceTree = "<group>"; };
 		E868B7D42CF9CFE40051B759 /* ReadingDataEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingDataEditorView.swift; sourceTree = "<group>"; };
 		E868B7D72CF9EADD0051B759 /* ReadingDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingDataViewModel.swift; sourceTree = "<group>"; };
 		E868B7DA2CFA12900051B759 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		E868B7DC2CFA2FB80051B759 /* WebViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewState.swift; sourceTree = "<group>"; };
 		E868B7DE2CFA3EE00051B759 /* WebNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebNavigationBar.swift; sourceTree = "<group>"; };
+		E868B7E02CFB72130051B759 /* SuccessSavedFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessSavedFileView.swift; sourceTree = "<group>"; };
+		E868B7E22CFB78E50051B759 /* PDFViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewModel.swift; sourceTree = "<group>"; };
+		E868B7E42CFB7D690051B759 /* PDFSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSectionView.swift; sourceTree = "<group>"; };
+		E868B7E72CFB86B50051B759 /* PDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewer.swift; sourceTree = "<group>"; };
+		E868B7EB2CFB93040051B759 /* PDFViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +107,9 @@
 		E868B7CF2CF9C7170051B759 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				E868B7E62CFB86930051B759 /* pdfs */,
 				E868B7D92CFA127E0051B759 /* webView */,
-				E868B7D22CF9C7920051B759 /* ReadingListView.swift */,
+				E868B7D22CF9C7920051B759 /* ReadingSectionView.swift */,
 				E868B7D42CF9CFE40051B759 /* ReadingDataEditorView.swift */,
 			);
 			path = views;
@@ -109,6 +120,7 @@
 			children = (
 				E868B7D72CF9EADD0051B759 /* ReadingDataViewModel.swift */,
 				E868B7DC2CFA2FB80051B759 /* WebViewState.swift */,
+				E868B7E22CFB78E50051B759 /* PDFViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -119,8 +131,19 @@
 				E868B7D02CF9C7250051B759 /* ReadingDetailView.swift */,
 				E868B7DE2CFA3EE00051B759 /* WebNavigationBar.swift */,
 				E868B7DA2CFA12900051B759 /* WebView.swift */,
+				E868B7E02CFB72130051B759 /* SuccessSavedFileView.swift */,
 			);
 			path = webView;
+			sourceTree = "<group>";
+		};
+		E868B7E62CFB86930051B759 /* pdfs */ = {
+			isa = PBXGroup;
+			children = (
+				E868B7E72CFB86B50051B759 /* PDFViewer.swift */,
+				E868B7EB2CFB93040051B759 /* PDFViewWrapper.swift */,
+				E868B7E42CFB7D690051B759 /* PDFSectionView.swift */,
+			);
+			path = pdfs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +227,14 @@
 				E868B7BC2CF9BA5C0051B759 /* WebReadingListAppApp.swift in Sources */,
 				E868B7DD2CFA2FB80051B759 /* WebViewState.swift in Sources */,
 				E868B7D52CF9CFE40051B759 /* ReadingDataEditorView.swift in Sources */,
-				E868B7D32CF9C7920051B759 /* ReadingListView.swift in Sources */,
+				E868B7E52CFB7D690051B759 /* PDFSectionView.swift in Sources */,
+				E868B7D32CF9C7920051B759 /* ReadingSectionView.swift in Sources */,
+				E868B7EC2CFB93040051B759 /* PDFViewWrapper.swift in Sources */,
 				E868B7D12CF9C7260051B759 /* ReadingDetailView.swift in Sources */,
+				E868B7E12CFB72130051B759 /* SuccessSavedFileView.swift in Sources */,
 				E868B7CB2CF9BAEE0051B759 /* ReadingItem.swift in Sources */,
+				E868B7E82CFB86B50051B759 /* PDFViewer.swift in Sources */,
+				E868B7E32CFB78E50051B759 /* PDFViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +383,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -384,6 +413,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
